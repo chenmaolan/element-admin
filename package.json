@@ -5,12 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "element-plus": "^1.0.2-beta.28",
     "normalize.css": "^8.0.1",
+    "svg-sprite-loader": "^6.0.6",
+    "svgo": "^2.3.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
